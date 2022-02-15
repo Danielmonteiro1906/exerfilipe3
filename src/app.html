@@ -1,0 +1,6 @@
+<template>
+	<h1 class="slds-text-heading_large">Minhas músicas favoritas</h1><br/>
+	<template for:each={musicas} for:item="rock">
+				<p key={rock.cod}>Nome: {rock.nome}, Artista: {rock.artista}, Album: {rock.album}</p>
+			</template>
+</template>
